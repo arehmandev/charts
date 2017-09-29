@@ -29,7 +29,7 @@ The following tables lists the configurable parameters of the Jenkins chart and 
 | Parameter                         | Description                          | Default                                                                      |
 | --------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------- |
 | `Master.Name`                     | Jenkins master name                  | `jenkins-master`                                                             |
-| `Master.Image`                    | Master image name                    | `jenkinsci/jenkins`                                                          |
+| `Master.Image`                    | Master image name                    | `jenkins/jenkins`                                                          |
 | `Master.ImageTag`                 | Master image tag                     | `2.46.1`                                                                     |
 | `Master.ImagePullPolicy`          | Master image pull policy             | `Always`                                                                     |
 | `Master.Component`                | k8s selector key                     | `jenkins-master`                                                             |
